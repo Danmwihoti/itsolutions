@@ -1,5 +1,6 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
@@ -7,7 +8,7 @@ import { CheckCircle } from 'lucide-react';
 
 export const dynamic = 'force-dynamic';
 
-export default function OrderConfirmationPage() {
+function OrderConfirmationContent() {
   const searchParams = useSearchParams();
   const status = searchParams.get('status');
 
@@ -57,5 +58,13 @@ export default function OrderConfirmationPage() {
         </Button>
       </a>
     </main>
+  );
+}
+
+export default function OrderConfirmationPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <OrderConfirmationContent />
+    </Suspense>
   );
 }
