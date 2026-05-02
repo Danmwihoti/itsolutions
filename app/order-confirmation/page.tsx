@@ -36,7 +36,7 @@ function OrderConfirmationContent() {
               Continue Shopping
             </Button>
           </Link>
-          <a href="https://wa.me/0723559412" target="_blank">
+          <a href="https://wa.me/254723559412" target="_blank">
             <Button variant="outline">
               Contact Us on WhatsApp
             </Button>
@@ -52,7 +52,7 @@ function OrderConfirmationContent() {
       <p className="text-xl text-gray-600 mb-8">
         Something went wrong. Please contact us for assistance.
       </p>
-      <a href="https://wa.me/0723559412" target="_blank">
+      <a href="https://wa.me/254723559412" target="_blank">
         <Button className="bg-green-600 hover:bg-green-700">
           Chat on WhatsApp
         </Button>

@@ -9,7 +9,7 @@ export default function Footer() {
             <p>Phone: 0723559412 (Dan)</p>
             <p>Phone: 0723559412 (Abdi)</p>
             <a 
-              href="https://wa.me/0723559412" 
+              href="https://wa.me/254723559412" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-400 hover:underline"

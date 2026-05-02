@@ -17,7 +17,7 @@ export default function Hero() {
               Shop Laptops
             </Button>
           </Link>
-          <Link href="https://wa.me/0723559412" target="_blank">
+          <Link href="https://wa.me/254723559412" target="_blank">
             <Button variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-3">
               Chat on WhatsApp
             </Button>

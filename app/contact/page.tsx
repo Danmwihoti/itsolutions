@@ -47,7 +47,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold">WhatsApp</h3>
                 <a 
-                  href="https://wa.me/0723559412" 
+                  href="https://wa.me/254723559412" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-700 hover:underline"
@@ -105,7 +105,7 @@ export default function ContactPage() {
             <h3 className="text-xl font-bold mb-2">Need Help Choosing?</h3>
             <p className="mb-4">Chat with us on WhatsApp for personalized recommendations.</p>
             <a 
-              href="https://wa.me/0723559412?text=Hi, I need help choosing a laptop"
+              href="https://wa.me/254723559412?text=Hi, I need help choosing a laptop"
               target="_blank"
               rel="noopener noreferrer"
             >

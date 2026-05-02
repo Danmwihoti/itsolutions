@@ -83,7 +83,7 @@ export default function ProductPage({ params }: ProductPageProps) {
           <div className="flex flex-col sm:flex-row gap-3">
             <AddToCartButton product={product} />
             <a 
-              href={`https://wa.me/0723559412?text=Hi, I'm interested in ${product.name} (KSh ${product.price.toLocaleString()})`}
+              href={`https://wa.me/254723559412?text=Hi, I'm interested in ${product.name} (KSh ${product.price.toLocaleString()})`}
               target="_blank"
               rel="noopener noreferrer"
             >

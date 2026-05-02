@@ -213,7 +213,7 @@ export default function CheckoutPage() {
               {loading ? 'Processing...' : `Pay with M-Pesa (KSh ${(totalPrice + (formData.deliveryMethod === 'delivery' ? 300 : 0)).toLocaleString()})`}
             </Button>
             <a 
-              href={`https://wa.me/0723559412?text=Hi, I want to order laptops worth KSh ${totalPrice.toLocaleString()}`}
+              href={`https://wa.me/254723559412?text=Hi, I want to order laptops worth KSh ${totalPrice.toLocaleString()}`}
               target="_blank"
               rel="noopener noreferrer"
               className="block"
